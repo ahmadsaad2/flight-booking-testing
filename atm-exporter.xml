@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10033</projectId>
+    <projectKey>PROJECT1</projectKey>
+    <exportDate>2025-09-21 09:41:27 UTC</exportDate>
+    <folders>
+        <folder fullPath="Booking /Invalid Passenger Details" index="3"/>
+        <folder fullPath="Booking /Invalid Select Flight Scenario " index="1"/>
+        <folder fullPath="Booking /Invalid payment Details" index="5"/>
+        <folder fullPath="Booking /Valid Passenger Details " index="2"/>
+        <folder fullPath="Booking /Valid Select Flight Scenario " index="0"/>
+        <folder fullPath="Booking /Valid payment Details" index="4"/>
+    </folders>
+    <testCases>
+        <testCase id="261952273" key="PROJECT1-T1">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>ahmad mohammad saad</createdBy>
+            <createdOn>2025-09-20 07:04:06 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking /Valid Select Flight Scenario ]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate booking in 'Return' trip]]></name>
+            <owner>712020:d4214d85-4f88-4a26-8601-82fbdca6c2ed</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="261952274" key="PROJECT1-T2">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>ahmad mohammad saad</createdBy>
+            <createdOn>2025-09-20 07:04:06 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking /Valid Select Flight Scenario ]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate booking in ' one way' trip]]></name>
+            <owner>712020:d4214d85-4f88-4a26-8601-82fbdca6c2ed</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="261952275" key="PROJECT1-T3">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>ahmad mohammad saad</createdBy>
+            <createdOn>2025-09-20 07:04:06 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking /Valid Select Flight Scenario ]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate booking 'Return' trip in the same departure and return date]]></name>
+            <owner>712020:d4214d85-4f88-4a26-8601-82fbdca6c2ed</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="261952276" key="PROJECT1-T4">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>ahmad mohammad saad</createdBy>
+            <createdOn>2025-09-20 07:04:06 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking /Valid Select Flight Scenario ]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate booking a 'one way' trip with today's date]]></name>
+            <owner>712020:d4214d85-4f88-4a26-8601-82fbdca6c2ed</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="261952277" key="PROJECT1-T5">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>ahmad mohammad saad</createdBy>
+            <createdOn>2025-09-20 07:04:06 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking /Valid Select Flight Scenario ]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate the default trip type is 'Return']]></name>
+            <owner>712020:d4214d85-4f88-4a26-8601-82fbdca6c2ed</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="261952600" key="PROJECT1-T6">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>ahmad mohammad saad</createdBy>
+            <createdOn>2025-09-20 07:29:35 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking /Invalid Select Flight Scenario ]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate that the booking a return trip is not allowed when the return date is before the departure date.]]></name>
+            <owner>712020:d4214d85-4f88-4a26-8601-82fbdca6c2ed</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="261952601" key="PROJECT1-T7">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>ahmad mohammad saad</createdBy>
+            <createdOn>2025-09-20 07:29:35 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking /Invalid Select Flight Scenario ]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate that the booking is not allowed when the "Form" field is empty.]]></name>
+            <owner>712020:d4214d85-4f88-4a26-8601-82fbdca6c2ed</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="261952602" key="PROJECT1-T8">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>ahmad mohammad saad</createdBy>
+            <createdOn>2025-09-20 07:29:36 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking /Invalid Select Flight Scenario ]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate that the booking is not allowed when the "To" field is empty.]]></name>
+            <owner>712020:d4214d85-4f88-4a26-8601-82fbdca6c2ed</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="261952603" key="PROJECT1-T9">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>ahmad mohammad saad</createdBy>
+            <createdOn>2025-09-20 07:29:36 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking /Invalid Select Flight Scenario ]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate that the booking is not allowed when the "departure date" in the past.]]></name>
+            <owner>712020:d4214d85-4f88-4a26-8601-82fbdca6c2ed</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="261952604" key="PROJECT1-T10">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>ahmad mohammad saad</createdBy>
+            <createdOn>2025-09-20 07:29:36 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking /Invalid Select Flight Scenario ]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate that the booking is not allowed when the "return date" in the past.]]></name>
+            <owner>712020:d4214d85-4f88-4a26-8601-82fbdca6c2ed</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="261952605" key="PROJECT1-T11">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>ahmad mohammad saad</createdBy>
+            <createdOn>2025-09-20 07:29:36 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking /Invalid Select Flight Scenario ]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate that the return field is disabled when switching to a one-way trip.]]></name>
+            <owner>712020:d4214d85-4f88-4a26-8601-82fbdca6c2ed</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="261952606" key="PROJECT1-T12">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>ahmad mohammad saad</createdBy>
+            <createdOn>2025-09-20 07:29:36 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking /Invalid Select Flight Scenario ]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate system behavior when selecting an invalid day or month (e.g. :March 30).]]></name>
+            <owner>712020:d4214d85-4f88-4a26-8601-82fbdca6c2ed</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="261952607" key="PROJECT1-T13">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>ahmad mohammad saad</createdBy>
+            <createdOn>2025-09-20 07:29:36 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking /Invalid Select Flight Scenario ]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate error message when trying to proceed without filling any fields.]]></name>
+            <owner>712020:d4214d85-4f88-4a26-8601-82fbdca6c2ed</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="261952608" key="PROJECT1-T14">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>ahmad mohammad saad</createdBy>
+            <createdOn>2025-09-20 07:29:36 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking /Invalid Select Flight Scenario ]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate that booking is not allowed when selecting a departure date far in the future (e.g. :10 years Ahed).]]></name>
+            <owner>712020:d4214d85-4f88-4a26-8601-82fbdca6c2ed</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="261952618" key="PROJECT1-T15">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>ahmad mohammad saad</createdBy>
+            <createdOn>2025-09-20 07:30:47 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking /Valid Select Flight Scenario ]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate Select Flight in Responsive version ]]></name>
+            <owner>712020:d4214d85-4f88-4a26-8601-82fbdca6c2ed</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="261952631" key="PROJECT1-T16">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>ahmad mohammad saad</createdBy>
+            <createdOn>2025-09-20 07:32:20 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking /Invalid Select Flight Scenario ]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate trying to book multiple Flights at the same time ]]></name>
+            <owner>712020:d4214d85-4f88-4a26-8601-82fbdca6c2ed</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="261952659" key="PROJECT1-T17">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>ahmad mohammad saad</createdBy>
+            <createdOn>2025-09-20 07:35:31 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking /Valid Passenger Details ]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate providing valid information for passengers details]]></name>
+            <owner>712020:d4214d85-4f88-4a26-8601-82fbdca6c2ed</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="261952662" key="PROJECT1-T18">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>ahmad mohammad saad</createdBy>
+            <createdOn>2025-09-20 07:37:10 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking /Invalid Passenger Details]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate providing invalid information for passenger details (e.g. "Very long or numbers").]]></name>
+            <owner>712020:d4214d85-4f88-4a26-8601-82fbdca6c2ed</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="261952663" key="PROJECT1-T19">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>ahmad mohammad saad</createdBy>
+            <createdOn>2025-09-20 07:37:10 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking /Invalid Passenger Details]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate leaving the fields empty in passengers details.]]></name>
+            <owner>712020:d4214d85-4f88-4a26-8601-82fbdca6c2ed</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="261955180" key="PROJECT1-T20">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>ahmad mohammad saad</createdBy>
+            <createdOn>2025-09-20 07:39:10 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking /Valid payment Details]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate payment with Visa Card]]></name>
+            <owner>712020:d4214d85-4f88-4a26-8601-82fbdca6c2ed</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="261955181" key="PROJECT1-T21">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>ahmad mohammad saad</createdBy>
+            <createdOn>2025-09-20 07:39:10 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking /Valid payment Details]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate payment with Master Card]]></name>
+            <owner>712020:d4214d85-4f88-4a26-8601-82fbdca6c2ed</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="261960060" key="PROJECT1-T22">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>ahmad mohammad saad</createdBy>
+            <createdOn>2025-09-20 08:52:00 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking /Invalid payment Details]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate that the payment is not allowed when the cardholder's name field is empty.]]></name>
+            <owner>712020:d4214d85-4f88-4a26-8601-82fbdca6c2ed</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="261960061" key="PROJECT1-T23">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>ahmad mohammad saad</createdBy>
+            <createdOn>2025-09-20 08:52:00 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking /Invalid payment Details]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate that the payment is not allowed when the cardholder's number field is empty.]]></name>
+            <owner>712020:d4214d85-4f88-4a26-8601-82fbdca6c2ed</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="261960062" key="PROJECT1-T24">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>ahmad mohammad saad</createdBy>
+            <createdOn>2025-09-20 08:52:00 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking /Invalid payment Details]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate that the payment is not allowed when the cardholder's name field is contains numbers or special characters.]]></name>
+            <owner>712020:d4214d85-4f88-4a26-8601-82fbdca6c2ed</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="261960063" key="PROJECT1-T25">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>ahmad mohammad saad</createdBy>
+            <createdOn>2025-09-20 08:52:00 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking /Invalid payment Details]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate that the payment is not allowed when the cardholder's numbers field is contains non-numeric characters.]]></name>
+            <owner>712020:d4214d85-4f88-4a26-8601-82fbdca6c2ed</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="261960064" key="PROJECT1-T26">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>ahmad mohammad saad</createdBy>
+            <createdOn>2025-09-20 08:52:00 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking /Invalid payment Details]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate that the payment is not allowed when the cardholder's numbers field is less than required digits.]]></name>
+            <owner>712020:d4214d85-4f88-4a26-8601-82fbdca6c2ed</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="261960065" key="PROJECT1-T27">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>ahmad mohammad saad</createdBy>
+            <createdOn>2025-09-20 08:52:00 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking /Invalid payment Details]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate that the payment is not allowed when the cardholder's numbers field is more than required digits.]]></name>
+            <owner>712020:d4214d85-4f88-4a26-8601-82fbdca6c2ed</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="261960066" key="PROJECT1-T28">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>ahmad mohammad saad</createdBy>
+            <createdOn>2025-09-20 08:52:00 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking /Invalid payment Details]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate that the payment is not allowed when the expiry date is in the past.]]></name>
+            <owner>712020:d4214d85-4f88-4a26-8601-82fbdca6c2ed</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="261960067" key="PROJECT1-T29">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>ahmad mohammad saad</createdBy>
+            <createdOn>2025-09-20 08:52:00 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking /Invalid payment Details]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate that the payment is not allowed when entering a valid card number but selecting an incorrect card type.]]></name>
+            <owner>712020:d4214d85-4f88-4a26-8601-82fbdca6c2ed</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="261960068" key="PROJECT1-T30">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>ahmad mohammad saad</createdBy>
+            <createdOn>2025-09-20 08:52:00 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking /Invalid payment Details]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate that the payment is not allowed when the "Pay now" button is clicked with all fields empty.]]></name>
+            <owner>712020:d4214d85-4f88-4a26-8601-82fbdca6c2ed</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="261960069" key="PROJECT1-T31">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>ahmad mohammad saad</createdBy>
+            <createdOn>2025-09-20 08:52:00 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking /Invalid payment Details]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate that the payment is not allowed when the "Pay now" buttons is clicked with only some fields filled.]]></name>
+            <owner>712020:d4214d85-4f88-4a26-8601-82fbdca6c2ed</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="261960070" key="PROJECT1-T32">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>ahmad mohammad saad</createdBy>
+            <createdOn>2025-09-20 08:52:00 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking /Invalid payment Details]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate that payments is not allowed when spaces or special characters are entered in the card number field.]]></name>
+            <owner>712020:d4214d85-4f88-4a26-8601-82fbdca6c2ed</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="261960071" key="PROJECT1-T33">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>ahmad mohammad saad</createdBy>
+            <createdOn>2025-09-20 08:52:00 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking /Invalid payment Details]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate that payments is not allowed when using an expired credit card.]]></name>
+            <owner>712020:d4214d85-4f88-4a26-8601-82fbdca6c2ed</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="261960072" key="PROJECT1-T34">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>ahmad mohammad saad</createdBy>
+            <createdOn>2025-09-20 08:52:00 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking /Invalid payment Details]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate system behavior when network connectivity is lost during payment processing.]]></name>
+            <owner>712020:d4214d85-4f88-4a26-8601-82fbdca6c2ed</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="261960073" key="PROJECT1-T35">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>ahmad mohammad saad</createdBy>
+            <createdOn>2025-09-20 08:52:00 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking /Invalid payment Details]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate system behavior when entering an extremely large number in the card number field.]]></name>
+            <owner>712020:d4214d85-4f88-4a26-8601-82fbdca6c2ed</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="261960074" key="PROJECT1-T36">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>ahmad mohammad saad</createdBy>
+            <createdOn>2025-09-20 08:52:00 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking /Invalid payment Details]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate that payment is not allowed when attempting to enter text in the expiry date fields.]]></name>
+            <owner>712020:d4214d85-4f88-4a26-8601-82fbdca6c2ed</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="261960075" key="PROJECT1-T37">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>ahmad mohammad saad</createdBy>
+            <createdOn>2025-09-20 08:52:00 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking /Invalid payment Details]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate error messages displayed for each invalid payment attempt.]]></name>
+            <owner>712020:d4214d85-4f88-4a26-8601-82fbdca6c2ed</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>
