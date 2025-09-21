@@ -1,2 +1,5 @@
-# flight-booking-testing
-This repository documents the **end-to-end QA process** for the AgileWay Flight Booking Web Application. 
+# ✈️ Flight Booking QA Project — AgileWay Travel
+
+> QA Test Repository for https://travel.agileway.net/login  
+> Jira + Zephyr Scale | Manual Testing | Bug Reporting | Test Cycle Execution
+
